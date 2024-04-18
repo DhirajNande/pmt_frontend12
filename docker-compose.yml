@@ -4,7 +4,7 @@ services:
  authdev:
   image: pmt_frontenddev
   ports:
-   - 8080:8080
+   - 3000:3000
   container_name: pmt_frontenddev
   deploy:
     replicas: 1
